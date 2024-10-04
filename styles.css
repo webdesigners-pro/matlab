@@ -686,7 +686,7 @@ font-size: 18px;
 @media (max-width: 800px) {
 .cousemessage {
   height:120vh ;
-  margin-top: 30%;
+  margin-top: 10px;
 
 }
 .cousemessage ul li a{
@@ -1015,4 +1015,120 @@ ul li{
 .matlaby{
   font-size: 13px;
   
+}
+
+.ycontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left:200px;
+  margin-top:30px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Welcome Section */
+.welcome-section {
+  background-color: #4CAF50;
+  color: white;
+  padding: 50px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.welcome-section h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.welcome-section p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Services Section */
+.services-section {
+  margin-top: 40px;
+}
+
+.services-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Grid Layout for Services */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Hover Effect */
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .welcome-section h1 {
+      font-size: 28px;
+  }
+
+  .welcome-section p {
+      font-size: 16px;
+  }
+
+  .services-section h2 {
+      font-size: 28px;
+  }
+
+  .service-card h3 {
+      font-size: 20px;
+  }
+
+  .service-card p {
+      font-size: 14px;
+  }
+}
+@media (max-width: 768px){
+  .ycontainer{
+    margin-left:5px;
+    margin-top:50px;
+  }
+
+}
+@media (min-width: 768px){
+  .messag{
+    margin-left:200px;
+  }
+  .solvers{
+    margin-top:10px
+  }
+}
+@media (max-width: 768px){
+  .solvers{
+    margin-top:10px
+  }
+
 }
